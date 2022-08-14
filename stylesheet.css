@@ -4,15 +4,18 @@ body {
 div {
     border: 1px solid white;
 }
-
 .container1 {
     display: flex;
     height: 550px;
 }
 .container2 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: white;
-    height: 450px;
+    color: #1F2937;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container3 {
     display: flex;
@@ -37,24 +40,58 @@ div {
 .links {
     color: #E5E7EB;
 }
+.headercontainer2 {
+    font: 36px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divscontainer2 {
+    display: flex;
+}
+.divscontainer2, div{
+    border: 1px solid black;
+}
+#box1, #box2, #box3, #box4 {
+    border: 4px solid #3882F6;
+}
 .quote {
     height: 4.5in;
     width: 9in;
     color: #708090;
     font-size: 36px;
-    font-family: "Times New Roman" sans-serif;
+    font-family: "Times New Roman", sans-serif;
 }
 .quotename {
     display: flex;
     justify-content: flex-end;
     color: black;
-    font-family: "Times New Roman" sans-serif;
+    font-family: "Times New Roman", sans-serif;
+    padding-bottom: 10px;
 }
 .bluebox {
+    display: flex;
+    justify-content: space-around;
     background-color: #3882F6;
+    color: white;
     height: 2in;
     width: 10in;
-    
+}
+.actioncall {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signup {
+    display: flex;
+    align-items: center;
+}
+.signupbutton {
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    height: 50px;
+    width: 100px;
 }
 footer {
     color:#E5E7EB;
