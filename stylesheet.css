@@ -2,7 +2,7 @@ body {
     background-color: #1F2937;
 }
 div {
-    border: 2px solid white;
+    border: 1px solid white;
 }
 
 .container1 {
@@ -16,11 +16,49 @@ div {
 }
 .container3 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
-    height: 450px;
+    height: 400px;
 }
 .container4 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     height: 400px;
+}
+.headerlogo {
+    color:#E5E7EB
+}
+.awesometext {
+    color:#E5E7EB
+}
+.links {
+    color: #E5E7EB;
+}
+.quote {
+    height: 4.5in;
+    width: 9in;
+    color: #708090;
+    font-size: 36px;
+    font-family: "Times New Roman" sans-serif;
+}
+.quotename {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    font-family: "Times New Roman" sans-serif;
+}
+.bluebox {
+    background-color: #3882F6;
+    height: 2in;
+    width: 10in;
+    
+}
+footer {
+    color:#E5E7EB;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
 }
