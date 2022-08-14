@@ -1,0 +1,26 @@
+body {
+    background-color: #1F2937;
+}
+div {
+    border: 2px solid white;
+}
+
+.container1 {
+    display: flex;
+    height: 550px;
+}
+.container2 {
+    display: flex;
+    background-color: white;
+    height: 450px;
+}
+.container3 {
+    display: flex;
+    background-color: #E5E7EB;
+    height: 450px;
+}
+.container4 {
+    display: flex;
+    background-color: white;
+    height: 400px;
+}
