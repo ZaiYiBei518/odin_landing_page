@@ -1,11 +1,9 @@
 body {
     background-color: #1F2937;
 }
-div {
-    border: 1px solid white;
-}
 .container1 {
     display: flex;
+    justify-content: space-between;
     height: 550px;
 }
 .container2 {
@@ -29,16 +27,62 @@ div {
     justify-content: center;
     align-items: center;
     background-color: white;
-    height: 350px;
+    height: 300px;
+}
+.headerleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 150px;
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headerright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 150px;
+
 }
 .headerlogo {
-    color:#E5E7EB
+    color:#E5E7EB;
 }
 .awesometext {
-    color:#E5E7EB
+    font-size: 36px;
+    font-weight: bold;
+    color:#E5E7EB;
+    height: 100px;
+    margin-bottom: 900px;
+    margin-top: 30px;
+}
+.headerbutton {
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #1F2937;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    margin-bottom: 50px;
 }
 .links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    font-size: 18px;
+}
+a:link {
     color: #E5E7EB;
+}
+a:hover {
+    color: lightgray;
+}
+a:visited {
+    color: slategray;
+}
+.image {
+    margin-bottom: 90px;
 }
 .headercontainer2 {
     font-size: 24px;
@@ -49,9 +93,6 @@ div {
     display: flex;
     justify-content: space-around;
     width: 1000px;
-}
-.divscontainer2, div{
-    border: 1px solid black;
 }
 #box1, #box2, #box3, #box4 {
     border: 5px solid #3882F6;
@@ -91,7 +132,7 @@ div {
     border-color: white;
     border-radius: 25px;
     height: 1.5in;
-    width: 9in;
+    width: 9.5in;
 }
 .actioncall {
     display: flex;
