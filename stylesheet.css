@@ -41,18 +41,33 @@ div {
     color: #E5E7EB;
 }
 .headercontainer2 {
-    font: 36px;
+    font-size: 24px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
 .divscontainer2 {
     display: flex;
+    justify-content: space-around;
+    width: 1000px;
 }
 .divscontainer2, div{
     border: 1px solid black;
 }
 #box1, #box2, #box3, #box4 {
-    border: 4px solid #3882F6;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+#cap1, #cap2, #cap3, #cap4 {
+    height: 160px;
+    width: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+.captions {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    width: 1000px;
 }
 .quote {
     height: 4.5in;
